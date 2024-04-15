@@ -1,0 +1,102 @@
+		body {
+            font-family:times new roman ,serif;
+			
+			
+   
+			}
+
+        .header {
+			text-align:center;
+			font-size:30px;
+            padding: 90px;
+            color: white;
+			background-image: url('taj.jpg');
+			background-size: 100% 100%;
+			font-family:Garamond;
+			
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+		.home{
+			
+			font-style:italic;
+			text-align:center;
+			font-size:30px;
+			}
+      
+        .section {
+            margin: 20px;
+        }
+		th
+		{
+			font-size:30px;
+		padding:20px;}
+		.attractions{
+		margin-bottom: 8em;}
+		
+        .footer {
+            text-align: center;
+			font-size:12px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			position: fixed;
+			
+						
+        }
+		.sidebar  {
+			
+			width: 150px;
+			color:white;
+			background-color: #333;
+			border-left: 1px solid #ddd;
+			padding: 20px;
+			float:right;
+			height:200vh;
+				}
+			
+			a 	{
+			color: white;
+			background-color: transparent;
+			text-decoration:none;}
+
+
+			a:hover {
+			background-color:grey;}
+			
+			.contact1 {
+			margin-top: 50px;
+			text-align: center;
+				}
+			.mail{
+			 color:black;
+				}
+			.images{
+				 margin-left: auto;
+				margin-right: auto;
+				}
+				
+			@media only screen and (max-width: 480px) {
+				  body {
+					background-color: lightblue;
+				  }
+				  h1 {
+					color: white;
+					text-align: center;
+				  }
+				}
